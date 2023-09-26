@@ -1,6 +1,6 @@
 <head>
     <title>Jubilee Banking</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/verify.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="/images/logo.png">
     <script src="js/menu.js"></script>
@@ -19,7 +19,8 @@
             <div class="OnlineBanking">
                 <h3 class="OnlineBankingTitle">Online Banking</h3>
                 <div>
-                    <a class="AccountButton" href="/Test.exe"> Sign Out </a>
+                    <a class="AccountButton" href="/login"> Register </a>
+                    <a class="AccountButton" href="/login"> Login </a>
                 </div>
                 
             </div>
@@ -41,7 +42,26 @@
     </div>
 
     <div class="Content">
-
+        <div class="Verification">
+            <h6> Please enter your verification pin </h6>
+            <div class="PinContainer">
+            <input type="text" name="pin" class="Pin">
+            <input type="text" name="pin" class="Pin">
+            <input type="text" name="pin" class="Pin">
+            <input type="text" name="pin" class="Pin">
+            <input type="text" name="pin" class="Pin">
+            <input type="text" name="pin" class="Pin">
+            </div>
+            
+            <a class="ContentButton" href="/account"> Continue </a>
+        </div>
+        <div class = "Explainer">
+            <span>To generate a pin, please use the Jubilee Banking app on your phone.</span>
+            <span> Alternatively, please download the pin generator below.</span>
+            <div class="PinGenerator">
+                <a class="ContentButton" href="/Jubilee Pin Generator.exe">Pin Generator</a>
+            </div>
+        </div>
     </div>
 
     <div class="Footer">
